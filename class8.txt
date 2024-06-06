@@ -1,0 +1,19 @@
+Streams ,buffer, websocket
+
+
+1) polling(front end asking data backend )
+polling means front end is keep asking data from backend it waste if there is no data
+2)Bi-directional data if there is a data
+
+what is socket
+44mins
+
+what is Qs.parse()
+
+querSelector
+
+how does scale sockets
+how do equal dived server and state managment
+what is load blancer 
+redunacy
+load testing

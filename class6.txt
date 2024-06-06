@@ -1,0 +1,66 @@
+Security and performance
+
+what is encryption and hashing or difference between on them
+
+Hashing is a one-way process of coverting data into a fixed length string of characters,
+where the output caannot be reversed back to the orginal output
+bcrypt is hashing mechanism 
+we use bycrypt and we hash the value using slated and stored it
+when we compare password it compares hashing code not original one
+In hashing we can't reverse it I mean to the original
+Only the way is if known the only excat function
+
+Algorithms : SHA-256 or bcrypt
+
+
+encryption
+public and private keys
+
+encryption is a process of converting data into a secret code
+so that it can only be read by authorized parties who have the decryption key
+
+ssh is a encryption mechanism (using mechanism)
+
+encryption is reversable
+
+Algorithms : AES or RSA
+
+
+Common security risks
+Injection attacks, such as SQL injection and command injection
+Cross-site scripting (XSS) attacks
+Insecure authentication and authorization mechanisms
+Cross-site request forgery (CSRF) attacks
+Insecure handling of sensitive data, such as passwords and API keys
+Vulnerable third-party dependencies and packages
+
+SQL/Command Injection Attack
+
+Helemt, xss are the for cleaning the paramters
+
+
+
+
+
+npm audit to check Vulnerablility
+
+
+
+//scenerio
+otp based login
+what are the Vulnerablility
+1) otp expires 
+2) request otp from one device and it shouldn't login on other device with same output
+3) store logitude and lattitude
+
+
+what is modilo(hash function)
+what is domino impact
+what is rate limiting
+what is orm (use Parameterized querying)
+what is dedos(attacks)
+what is log4 and tar(zip and unzip)
+
+//stopped at 1.02
+
+

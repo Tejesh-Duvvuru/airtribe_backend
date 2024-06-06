@@ -1,0 +1,28 @@
+{
+  "airtribe": [
+    {
+      "name": "HTML",
+      "days": 15,
+      "teacher": "Sandeep",
+      "course": "node js",
+      "courseId": 1,
+      "college": "NBKR",
+      "semester": 2,
+      "instructor": "Teja",
+      "averageRating": 0,
+      "studentsVoted": 0
+    },
+    {
+      "name": "HTML",
+      "days": 15,
+      "teacher": "teja",
+      "course": "automation",
+      "courseId": 2,
+      "college": "NBKR",
+      "semester": 2,
+      "instructor": "Teja",
+      "averageRating": 0,
+      "studentsVoted": 0
+    }
+  ]
+}

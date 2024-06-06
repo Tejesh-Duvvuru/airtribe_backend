@@ -1,0 +1,23 @@
+difference between package.json and package.lock.json
+
+package.json file have what we installed dependency
+in package.lock.json dependency what other depency we installed
+
+
+middleware
+
+Authentication and Authorization
+
+
+Authentication = verify initially(otp(2 factor authentication), password, passkey=>frontend), backend jwt, seesion based authentication
+Authorization  = privalleges to have do certain task
+
+
+autho0 is company working   authentication and Authorization
+
+//terminal zsh befor 39mins after 30mins
+
+
+//salting its  for distrubuting among less number run fast
+//it generating randomnees for key
+

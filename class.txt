@@ -1,0 +1,58 @@
+//callbacks
+
+const myCallBack = function (data) {
+  console.log("got data: " + data);
+};
+
+var usingItNow = function (callback) {
+  callback("get it?");
+};
+
+setTimeout(() => {
+  console.log("settimeout called after time is over");
+}, 100);
+
+usingItNow(myCallBack);
+
+//promises
+
+// resolve(.then), rejected(.catch), pending
+//.then, .catch handle the promises
+
+var promiseWrappedMyCallback = (data) => {
+  return new Promise((resolve, reject) => {
+    // resolve("Hello: " + data);
+    reject("Hello: " + data);
+  });
+};
+
+promiseWrappedMyCallback("promises")
+  .then((res) => {
+    console.log("try promises", res);
+  })
+  .catch((error) => {
+    console.log("catch promises", error);
+  });
+
+// async , await ES 6
+// excpetion in async and wait handle with try and catch
+// resolve(try), rejected(catch ), pending
+
+const asyncAwaitFunction = async function () {
+  try {
+    let result = await promiseWrappedMyCallback("async await");
+    console.log("result in try", result);
+  } catch (err) {
+    console.log("await catch", err);
+  }
+};
+
+asyncAwaitFunction();
+
+// post man story
+// we need to delevry letter from tamil nadu maharastra
+//but there is no direct way to deliver thr letter
+//so tamil nadu(po) -> andhra pradesh(po) -> telangan(po) -> maharstra(po)
+//we are making 4 calls one after and after if we want response wheather it is deliver are not
+//it is depends on call after call back
+// and some time we can deliver parallel if there is no depent each other tn->ap, tn->karnatak, tn->kerala

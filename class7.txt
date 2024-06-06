@@ -1,0 +1,53 @@
+Advance Node.js
+
+java script is a asynchronus single thread language
+
+Event loop and clustering
+
+
+call back queue
+order of queue
+
+microtask queue  = process.nexttick and promises, 
+                async functions, queueMicrotask
+
+macrotask queue = Below four are macrotask
+timer queue
+io queue
+setimmediate queue
+close queue
+
+order of js code execution 
+synchronus
+microtask
+macrotask
+
+
+const foo = () => console.log("First)
+const bar = () => setTimeout( ()=> console.log("Second"), 500)
+const baz = () => console.log("Third)
+
+bar()
+foo()
+baz()
+
+output
+First
+Third
+Second
+
+
+callstack    ->    webapi  
+                      |
+      Eventloop  < ->   call baack queue
+
+
+
+
+clustering
+node js a single language
+
+      58 mins
+      1:49:11
+      2:10  
+      need to check clustering

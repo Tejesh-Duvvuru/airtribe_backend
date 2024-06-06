@@ -1,0 +1,7 @@
+mocha is the test runner
+chai assertion frame work
+sinon  mocking, stubing and  spying
+faker
+
+//35 mins
+//107 mins
